@@ -13,7 +13,7 @@ import ForumTheme from './pages/Forum/ForumTheme';
 import AboutUs from './pages/AboutUs';
 import ChangePassword from './pages/Profile/ChangePassword';
 import ChangeAvatar from './pages/Profile/ChangeAvatar';
-import Game from './pages/Game';
+import GamePage from './pages/GamePage';
 import ChangeProfile from './pages/Profile/ChangeProfile';
 
 const Layout = () => {
@@ -33,7 +33,7 @@ const Layout = () => {
         <Route path='/forum/:id' element={<ForumTheme />} />
         <Route path='/aboutUs' element={<AboutUs />} />
         <Route path='profile/edit' element={<ChangeProfile />} />
-        <Route path='/game' element={<Game />} />
+        <Route path='/game' element={<GamePage />} />
         <Route path='/*' element={<Eror404 />} />
       </Routes>
       <ToastContainer

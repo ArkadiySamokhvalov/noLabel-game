@@ -11,38 +11,38 @@ export const settings = {
       enemies: [
         {
           type: EnemyType.GOBLIN,
-          count: 5,
-        },
-      ],
-    },
-    {
-      enemies: [
-        {
-          type: EnemyType.GOBLIN,
-          count: 5,
-        },
-        {
-          type: EnemyType.HOBGOBLIN,
-          count: 3,
-        },
-      ],
-    },
-    {
-      enemies: [
-        {
-          type: EnemyType.GOBLIN,
-          count: 5,
-        },
-        {
-          type: EnemyType.HOBGOBLIN,
-          count: 3,
-        },
-        {
-          type: EnemyType.ORC,
           count: 1,
         },
       ],
     },
+    // {
+    //   enemies: [
+    //     {
+    //       type: EnemyType.GOBLIN,
+    //       count: 5,
+    //     },
+    //     {
+    //       type: EnemyType.HOBGOBLIN,
+    //       count: 3,
+    //     },
+    //   ],
+    // },
+    // {
+    //   enemies: [
+    //     {
+    //       type: EnemyType.GOBLIN,
+    //       count: 5,
+    //     },
+    //     {
+    //       type: EnemyType.HOBGOBLIN,
+    //       count: 3,
+    //     },
+    //     {
+    //       type: EnemyType.ORC,
+    //       count: 1,
+    //     },
+    //   ],
+    // },
   ],
   towers: [TowerType.ARCHER, TowerType.STONE],
   placementTiles: [

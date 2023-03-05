@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react';
 import { useDispatch } from 'react-redux';
-import { Game } from '../../game/Game';
-import { setPoints } from './slice';
+import { Game } from '../../../game/Game';
+import { setPoints } from '../slice';
 
-export const Canvas = (props: { mapName: string }) => {
+export const GameField = (props: { mapName: string }) => {
   const ref = useRef<HTMLCanvasElement>(null);
   const dispatch = useDispatch();
 

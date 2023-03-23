@@ -1,0 +1,44 @@
+.game-map {
+  // .game-map__img
+  &__img {
+    max-width: 100%;
+  }
+
+  // .game-map__map
+  &__map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // .game-map__area
+  &__area {
+    outline: 5px solid orange;
+  }
+}
+
+.pin {
+  position: absolute;
+  padding: 20px;
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+  background-color: rgb(100 100 100 / 90%);
+  transform: scale(0);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.pin > .close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 4px 10px;
+  color: white;
+  background-color: black;
+}
+
+.pin:target {
+  transform: scale(1);
+  opacity: 1;
+}

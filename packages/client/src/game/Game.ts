@@ -8,6 +8,8 @@ import { Resource } from './Resources';
 
 const mapsSettings = import.meta.glob(`../../public/game/maps/*.json`);
 
+import { throttle } from '@utils/throttle';
+
 export class Game {
   private imageSrc: string | undefined;
   private context: CanvasRenderingContext2D | null;
@@ -59,7 +61,8 @@ export class Game {
         this.createPlacementTiles();
         this.spawnEnemiesWave(this.waveIndex);
 
-        canvas.addEventListener('mousemove', (event) => this.handleMouseMove(event));
+        const throttledMove = throttle((event) => this.handleMouseMove(event), 300);
+        canvas.addEventListener('mousemove', () => throttledMove);
         canvas.addEventListener('click', () => this.handleClick(coins));
 
         return new Promise<number>((resolve) => {

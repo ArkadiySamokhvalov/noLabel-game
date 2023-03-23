@@ -17,6 +17,7 @@
 		"dotenv": "16.0.3",
 		"eslint-config-prettier": "8.6.0",
 		"formik": "2.2.9",
+		"image-map-resizer": "1.0.10",
 		"node-sass": "8.0.0",
 		"prettier": "2.8.4",
 		"react": "18.2.0",

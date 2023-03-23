@@ -4271,6 +4271,11 @@ ignore@^5.2.1:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
   integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
 
+image-map-resizer@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/image-map-resizer/-/image-map-resizer-1.0.10.tgz#06e2abccd86d739d78718d478d3b77a9906d28c0"
+  integrity sha512-e1dhQAIqBx1MUrUpwXfM4TGtVt1Q/YRnJAUxLPDnNG9TOIVf57TCP5PrDzvoy085ZdxZGxdDCSiaWyQfOPTdpA==
+
 immer@^9.0.16:
   version "9.0.19"
   resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.19.tgz#67fb97310555690b5f9cd8380d38fc0aabb6b38b"
